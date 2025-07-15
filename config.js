@@ -28,13 +28,13 @@ module.exports = {
     //            MODE
     // ==============================
     MODE: process.env.MODE || "public",
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 
     // ==============================
     //          CHATBOT
     // ==============================
-    CHAT_BOT: process.env.CHAT_BOT || "false",
+    CHAT_BOT: process.env.CHAT_BOT || "true",
     BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
     // ==============================
@@ -72,7 +72,7 @@ module.exports = {
     //      BOT APPEARANCE
     // ==============================
     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/di5kdx.jpg",
-    PREFIX: process.env.PREFIX || ".",
+    PREFIX: process.env.PREFIX || "$",
     BOT_NAME: process.env.BOT_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
     STICKER_NAME: process.env.STICKER_NAME || "𝐕𝐎𝐑𝐓𝐄𝐗-𝐗𝐌𝐃",
     ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/di5kdx.jpg",
